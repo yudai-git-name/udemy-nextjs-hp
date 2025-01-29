@@ -18,23 +18,23 @@ const footerContent = {
       links: [
         {
           href: '#',
-          label: 'Home',
+          label: 'ホーム',
         },
         {
           href: '#',
-          label: 'Services',
+          label: 'サービス',
         },
         {
           href: '#',
-          label: 'Solution',
+          label: 'ソリューション',
         },
         {
           href: '#',
-          label: 'Testimonials',
+          label: 'カスタマー',
         },
         {
           href: '#',
-          label: 'Blog',
+          label: 'ブログ・ニュース',
         },
       ],
     },
