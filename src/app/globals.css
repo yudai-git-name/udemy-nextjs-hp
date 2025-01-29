@@ -2,20 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.btnBlue {
+	@apply py-4 px-5 text-white rounded-lg bg-blue transition-all ease-out duration-300 hover:bg-[#1e50a2]
+	hover:shadow-lg hover:-top-1 relative top-0 inline-block
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.btnGreen {
+	@apply py-4 px-5 text-white rounded-lg bg-green transition-all ease-out duration-300 hover:bg-[#006e54]
+	hover:shadow-lg hover:-top-1 relative top-0 inline-block
 }
