@@ -18,23 +18,23 @@ const footerContent = {
       links: [
         {
           href: '#',
-          label: 'ホーム',
+          label: 'Home',
         },
         {
           href: '#',
-          label: 'サービス',
+          label: 'Services',
         },
         {
           href: '#',
-          label: 'ソリューション',
+          label: 'Solution',
         },
         {
           href: '#',
-          label: 'カスタマー',
+          label: 'Testimonials',
         },
         {
           href: '#',
-          label: 'ブログ・ニュース',
+          label: 'Blog',
         },
       ],
     },
@@ -115,7 +115,7 @@ export default function Footer() {
                           href={''}
                           className="flex items-center duration-300 transition-all ease-in-out hover:text-green group"
                         >
-                          <span className='max-md:text-xs'>{link.label}</span>
+                          <span className="max-md:text-xs">{link.label}</span>
                           <span className="left-2 relative duration-300 transition-all ease-in-out opacity-0 group-hover:opacity-100 group-hover:left-3">
                             <BiChevronRight className="text-xl" />
                           </span>
@@ -151,7 +151,9 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className='text-center pt-10 border-t border-gray-200'>Copyright ORIGIN.Doc 2023</div>
+        <div className="text-center pt-10 border-t border-gray-200">
+          Copyright ORIGIN.Doc 2023
+        </div>
       </div>
     </footer>
   );
